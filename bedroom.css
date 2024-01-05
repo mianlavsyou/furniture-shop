@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2 rem;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --text-color: #000000;
+    --main-color: #83b735;
+    --hover-color: #EF3167;
+    --container: #EFE7DA;
+    --background: #F6F5EC;
+}
+.box .title h4:hover{
+    color: var(--hover-color);
+}
+section{
+    padding: 50px 10%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: transparent;
+}
+.logo{
+    color: var(--hover-color);
+    font-family: Agbalumo;
+    font-size: 28px;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: end;
+}
+#navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--text-color);
+    float: left;
+}
+#navbar i{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--text-color);
+    float: left;
+}
+#navbar a:hover{
+    color: var(--hover-color);
+}
+#navbar i{
+    gap: 8px;
+}
+#navbar i:hover{
+    cursor: pointer;
+    color: var(--hover-color);
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+    background-color: #e8e7da;
+    border-radius: 20px;
+}
+.bedroom-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.bedroom-img img{
+    height: 400px;
+    width: 700px;
+    margin: 20px 0 20px 20px;
+    border-radius: 5%;
+}
+.intro .bedroom-description{
+   margin: 50px 0 0 20px                                             ;
+}
+.intro .bedroom-description p{
+    padding-top: 10px;
+}
+.box .image img{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    border-radius: 20px;
+}
+.bedroom-container .box .image:hover{
+    opacity: 0.5;
+}
+.bedroom-container .box .title{
+    cursor: pointer;
+}
+.bedroom-container .box .cart-icon{
+    display: flex;
+}
